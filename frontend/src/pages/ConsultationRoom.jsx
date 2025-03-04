@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import io from "socket.io-client";
 import { ZegoUIKitPrebuilt } from "@zegocloud/zego-uikit-prebuilt";
 
-const APP_ID = 425786426;
-const SERVER_SECRET = '7528254a2ea2aedc5613598b33fe68ec';
+const APP_ID = ;
+const SERVER_SECRET = '';
 const BACKEND_URL = "http://localhost:3000";
 
 function ConsultationRoom({ user }) {
